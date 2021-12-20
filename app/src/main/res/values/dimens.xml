@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_medium">10dp</dimen>
+    <dimen name="list_item_spacing">20dp</dimen>
+    <dimen name="image_size_customer_profile">100dp</dimen>
+</resources>

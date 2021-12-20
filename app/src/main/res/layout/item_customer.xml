@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_item_spacing">
+
+
+    <ImageView
+        android:id="@+id/iv_customer_profile"
+        android:layout_width="@dimen/image_size_customer_profile"
+        android:layout_height="@dimen/image_size_customer_profile"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tv_customer_title"
+        style="@style/title_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iv_customer_profile"
+        android:paddingStart="@dimen/spacing_medium"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry"
+        tools:text="customer title" />
+
+    <TextView
+        android:id="@+id/tv_customer_description"
+        style="@style/description_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_customer_title"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:layout_toEndOf="@id/iv_customer_profile"
+        android:paddingStart="@dimen/spacing_medium"
+        tools:text="customer title"
+        tools:ignore="RtlSymmetry" />
+</RelativeLayout>
